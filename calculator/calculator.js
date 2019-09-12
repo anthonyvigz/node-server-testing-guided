@@ -4,8 +4,8 @@ module.exports = {
     multiply
 }
 
-function add() {
-
+function add(x = 0, y = 0) {
+    return x + y;
 }
 
 function subtract() {
